@@ -57,12 +57,12 @@ int main()
     /* Start with the empty list */
     struct Node* head = NULL;
  
-    // create linked 35->15->4->20
-    push(&head, 20);
-    push(&head, 4);
-    push(&head, 15);
-    push(&head, 35);
+    // create linked 3->6->9->12
+    push(&head, 3);
+    push(&head, 6);
+    push(&head, 9);
+    push(&head, 12);
  
-    printNthFromLast(head, 4);
+    printNthFromLast(head, 3);
     return 0;
 }
